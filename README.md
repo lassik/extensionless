@@ -15,3 +15,15 @@ $ gcc -o "Hello World" -x c "Hello World source code"
 $ ./"Hello World"
 Hello World
 ```
+
+## Tar archive
+
+`tar` needs no special options.
+
+```
+$ tar -cf "Hello World archive" "Hello World" "Hello World source code"
+
+$ tar -xvf "Hello World archive"
+x Hello World
+x Hello World source code
+```
